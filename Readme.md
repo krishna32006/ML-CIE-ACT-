@@ -164,11 +164,164 @@ This project was completed as part of the Machine Learning CIE 2 activity.
 Faculty reference and Machine Learning learning resources:
 
 **[Princy2129 – GitHub Faculty Profile](https://github.com/Princy2129)**
-
-### ⭐ Acknowledgement
-
 "This project was completed as part of the Machine Learning CIE 2 activity. Faculty reference and Machine Learning learning resources: https://github.com/Princy2129"
+**Thank you for visiting this repository!**
+
+
+# 🏠 Simple House Price Prediction using Linear Regression
+
+## 📌 Project Overview
+
+This project is developed as part of **Machine Learning – CIE 2, Activity 2 (Unit II: Supervised Learning – Regression)**.
+
+The main objective of this activity is to build a Machine Learning model using **Simple Linear Regression** to predict house prices based on property features.
+
+The project demonstrates the complete regression workflow, including data collection, data preprocessing, visualization, model training, prediction, and performance evaluation.
+
+## 🎯 Objectives
+
+- Understand and explore a house price dataset.
+- Identify suitable input features (X) and target variable (y).
+- Perform data cleaning and preprocessing.
+- Visualize the relationship between property features and prices.
+- Split the dataset into training and testing sets.
+- Build and train a Linear Regression model.
+- Predict house prices using test data.
+- Evaluate the model using MAE, MSE, RMSE, and R².
+- Predict the price of a new property.
+
+## 📂 Dataset Information
+
+- **Dataset Name:** House Price Prediction Dataset
+- **Dataset Source:** [Kaggle – House Prices Dataset](https://www.kaggle.com/datasets)
+- **Description:** The dataset contains property-related information that can be used to understand and predict house prices.
+
+### Selected Variables
+
+| Variable | Description |
+|---|---|
+| Input Feature (X) | Area of the house (square feet) |
+| Target Variable (y) | House Price |
+
+*Note: The final feature selection depends on the dataset used in the notebook.*
+
+## 🛠️ Technologies Used
+
+- Python
+- Google Colab / Jupyter Notebook
+- Pandas – Data manipulation
+- NumPy – Numerical calculations
+- Matplotlib – Data visualization
+- Seaborn – Statistical visualization
+- Scikit-learn – Machine Learning model
+
+## ⚙️ Project Workflow
+
+1. **Dataset Collection:** Select and load a suitable house price dataset.
+2. **Data Exploration:** Examine records, columns, data types, and statistical information.
+3. **Data Preprocessing:** Handle missing values, invalid values, and duplicate records.
+4. **Feature Selection:** Select house area as the input feature and price as the target.
+5. **Data Visualization:** Create scatter plots to understand the relationship between area and price.
+6. **Train-Test Split:** Divide the dataset into 80% training data and 20% testing data.
+7. **Model Training:** Train a Simple Linear Regression model.
+8. **Prediction:** Predict house prices using unseen test data.
+9. **Model Evaluation:** Calculate MAE, MSE, RMSE, and R².
+10. **Visualization:** Compare actual and predicted house prices.
+11. **New Prediction:** Estimate the price of a new house using the trained model.
+
+## 📐 Linear Regression Equation
+
+The Simple Linear Regression equation is:
+
+**y = mx + c**
+
+Where:
+
+- **y:** Predicted house price
+- **x:** House area (input feature)
+- **m:** Regression coefficient (slope)
+- **c:** Intercept
+
+The model learns the slope and intercept from the training dataset.
+
+## 📊 Model Evaluation Metrics
+
+The model performance is evaluated using the following metrics:
+
+| Metric | Description |
+|---|---|
+| MAE | Mean Absolute Error |
+| MSE | Mean Squared Error |
+| RMSE | Root Mean Squared Error |
+| R² Score | Measures how well the model explains the variation in house prices |
+
+The evaluation results are available in the completed Jupyter Notebook.
+
+## 📈 Visualizations
+
+The project includes:
+
+- Scatter plot of house area vs. actual price.
+- Actual vs. predicted house price comparison.
+- Perfect prediction reference line.
+- Graphical representation of the relationship between input features and target values.
+
+## 🔮 New House Price Prediction
+
+The trained Linear Regression model is used to predict the price of a new house based on its area.
+
+The predicted value is generated using the learned regression equation.
+
+## 📝 Conclusion
+
+In this activity, a Simple Linear Regression model was developed to predict house prices using property-related features.
+
+The project helped demonstrate the practical implementation of supervised learning and regression techniques.
+
+The model was evaluated using MAE, MSE, RMSE, and R² score to understand its prediction performance.
+
+**Limitation:** House prices depend on several factors, including location, area, number of rooms, construction quality, and nearby facilities. A simple Linear Regression model using only one feature may not capture all these factors accurately.
+
+## 📁 Repository Structure
+
+```text
+Simple-House-Price-Prediction/
+│
+├── House_Price_Prediction.ipynb
+├── README.md
+└── dataset.csv
+```
+
+## 👨‍🎓 Academic Information
+
+- **Student Name:** Krishna Bhegade
+- **Roll Number:** 2119
+- **Branch:** Artificial Intelligence and Data Science (AI&DS)
+- **Section:** AIDS-A
+- **College:** Zeal College
+- **Subject:** Machine Learning
+- **Activity:** CIE 2 – Activity 2
+- **Unit:** Unit II – Supervised Learning: Regression
+
+## 👩‍🏫 Faculty Reference & Acknowledgement
+
+This project was completed as part of the Machine Learning CIE 2 activity.
+
+Faculty reference and Machine Learning learning resources:
+
+[Princy2129 – GitHub Faculty Profile](https://github.com/Princy2129)
+
+## 🚀 How to Run This Project
+
+1. Clone or download this repository.
+2. Open Google Colab or Jupyter Notebook.
+3. Upload the dataset file.
+4. Open `House_Price_Prediction.ipynb`.
+5. Execute all cells sequentially.
+6. Review the model predictions, evaluation metrics, and visualizations.
 
 ---
 
-**Thank you for visiting this repository!**
+⭐ **Thank you for visiting my project repository!**
+
+**Machine Learning | Supervised Learning | Linear Regression | Python**
